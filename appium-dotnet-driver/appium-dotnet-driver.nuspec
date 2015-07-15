@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Appium.WebDriver</id>
+    <version>1.2.0.8</version>
+    <title>Appium Webdriver</title>
+    <authors>Appium Commiters</authors>
+    <owners>Appium Commiters</owners>
+    <licenseUrl>https://raw.githubusercontent.com/appium/appium-dotnet-driver/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/appium/appium-dotnet-driver</projectUrl>
+    <iconUrl>https://avatars1.githubusercontent.com/u/3221291?s=140</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Selenium Webdriver extension for Appium.</description>
+    <releaseNotes>
+      1.2.0.8
+        Fix/Test for hide keyboard.
+      1.2.0.7
+        Separate android and ios drivers, improved namespaces, fixed tests, and redesigned methods and interfaces
+      1.2.0.6
+        Update Selenium NuGet Package to get fix for locator strategy.
+      1.2.0.5
+        Add GetSettings and IgnoreUnimportantViews methods.
+      1.2.0.4
+        Update version due to assembly not matching NuGet.
+      1.2.0.3 
+        Update version due to NuGet Package mismanagement.
+      1.2.0.2
+        Update NuGet packages. Add IsLocked() and Start Activity.
+      1.2.0.1
+        Add Pull Folder, Android Input Methods (IME), and Network Connection Methods for use with Appium 1.2
+      1.0.0
+        TouchAction + multiActions rewriting,
+        Project structure overhaul. 
+    </releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>Appium Webdriver device automation</tags>
+  <dependencies>
+    <dependency id="Newtonsoft.Json" version="6.0.6"/>
+    <dependency id="Selenium.WebDriver" version="2.44.0"/>
+  </dependencies>
+  </metadata>
+  <files>
+    <file src="bin/Release/appium-dotnet-driver.dll" target="lib/net40/appium-dotnet-driver.dll" /> 
+  </files>
+</package>
+ 

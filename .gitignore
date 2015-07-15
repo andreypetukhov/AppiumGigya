@@ -1,0 +1,16 @@
+bin
+obj
+Obj
+TestResults
+test-results
+*.csproj.user
+*.suo
+*.cache
+*~
+*.swp
+*.userprefs
+*.pidb
+packages
+*.nupkg
+samples/env.json
+
