@@ -105,7 +105,7 @@ namespace Appium.Samples
             driver.FindElementByXPath("//input[@placeholder='Email']").SendKeys("gigyaauto02@gmail.com");
             driver.FindElementByXPath("//input[@placeholder='Password']").SendKeys("P@ssw0rd100");
             driver.FindElementByXPath("//input[@class='allow']").Click();
-            Thread.Sleep(5000);
+            Thread.Sleep(15000);
             driver.Context = nativeHandle;
             driver.FindElementByName("Logout").Click();
             /*
